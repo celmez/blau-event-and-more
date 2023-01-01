@@ -1,0 +1,54 @@
+@media screen and ( max-width: 992px ) {
+    .blau-logo {
+        top: 0;
+        left: 120px;
+    }
+
+    .blau-logo-item-img {
+        margin-left: 0;
+    }
+
+    .our-team-title-item-h2 {
+        margin-top: 60%;
+        margin-left: 4%;
+    }
+
+    #footer-titles-123 {
+        margin-top: 140%;
+    }
+
+    .our-team {
+        position: absolute;
+        top: 320px;
+        left: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .our-team-21 {
+        display: none;
+    }
+
+    #open-menu {
+        margin-left: -50%;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+
+    .blau-menu-open {
+        position: absolute;
+        top: 25px;
+        left: -120px;
+    }
+
+    .blau-menu-open ul li {
+        float: none;
+        padding: 5px;
+    }
+    
+    #designer-information-item-p-1 {
+        color: #ffffff;
+        padding: 15px;
+    }
+}

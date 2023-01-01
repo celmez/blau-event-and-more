@@ -1,0 +1,426 @@
+.blau-logo {
+    position: fixed;
+}
+.blau-logo-item-img {
+    height: 200px;
+    width: 200px;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.blau-footer {
+    text-align: center;
+}
+
+.blau-footer form input[name=mail],
+.blau-footer form input[name=insta],
+.blau-footer form input[name=tel] {
+    height: 35px;
+    width: 35%;
+    text-indent: .4rem;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    transition: .4s ease;
+}
+
+.blau-footer form input[name=mail]::-webkit-input-placeholder,
+.blau-footer form input[name=insta]::-webkit-input-placeholder,
+.blau-footer form input[name=tel]::-webkit-input-placeholder {
+    transition: .4s ease;
+}
+
+.blau-footer form input[name=mail]:focus::-webkit-input-placeholder,
+.blau-footer form input[name=insta]:focus::-webkit-input-placeholder,
+.blau-footer form input[name=tel]:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.blau-footer form textarea[name=message] {
+    border: 1px solid #0000ff;
+    background-color: transparent;
+    padding: 5px 5px;
+    color: #f3f4f5;
+    transition: .4s ease;
+    resize: none;
+}
+
+.blau-footer form textarea[name=message]::-webkit-input-placeholder {
+    transition: .4s ease;
+}
+
+.blau-footer form textarea[name=message]:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: .4s ease;
+}
+
+.blau-footer form button[name=send] {
+    background-color: transparent;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+    height: 50px;
+    width: 35.5%;
+    font-size: 18px;
+    color: #0000ff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.blau-footer form button[name=send]:hover {
+    opacity: 0.2;
+    background-color: #0000ff;
+    transition: .2s ease;
+    color: #f3f4f5;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36%;
+}
+
+.menu ul:nth-child(1) {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+}
+
+.menu ul:nth-child(2) {
+    position: absolute;
+    bottom: 60px;
+    right: 400px;
+}
+
+.menu ul:nth-child(1) li {
+    float: none;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.menu ul:nth-child(2) li {
+    float: none;
+    padding: 80px 25px;
+}
+
+.menu ul:nth-child(1) li a .span-number
+{
+    font-size: 50px;
+    font-weight: bolder;
+    transition: .4s ease;
+}
+
+.menu ul:nth-child(1) li a .span-number:hover {
+    transition: .8s ease;
+    color: #0000ff;
+}
+
+.menu ul:nth-child(1) li a:hover .span-number {
+    color: #0000ff;
+}
+
+.menu ul:nth-child(2) li a .span-number
+{
+    font-size: 50px;
+    font-weight: bolder;
+    transition: .4s ease;
+}
+
+.menu ul:nth-child(2) li a .span-number:hover {
+    transition: .8s ease;
+    color: #0000ff;
+}
+
+.menu ul:nth-child(2) li a:hover .span-number {
+    transition: .8s ease;
+    color: #0000ff;
+}
+
+.menu ul:nth-child(2) li a .span-number
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.menu ul li span {
+    color: #f3f4f5;
+}
+
+.menu ul li a {
+    color: #f3f4f5;
+    text-decoration: none;
+    transition: .8s ease;
+}
+
+.menu .menu-item-img {
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.menu-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+
+.menu-1 ul li {
+    text-align: center;
+    float: none;
+    padding: 5px 5px;
+}
+
+.menu-1 ul li span {
+    color: #f3f4f5;
+}
+
+.menu-1 ul li a {
+    color: #f3f4f5;
+    text-decoration: none;
+    transition: .8s ease;
+}
+
+.menu-1 ul li a:hover {
+    padding: 2px;
+    transition: .8s ease;
+    color: #0000ff;
+}
+
+.menu-1 .menu-item-img {
+    margin-top: 2%;
+}
+
+.designer-item-p {
+    text-align: center;
+    color: #f3f4f5;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    padding: 10px;
+}
+
+.designer-item-p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.teammates {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.our-team-titles {
+    margin-top: 2%;
+}
+
+#designer-information-item-p-1 {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.our-team-titles h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #f3f4f5;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.our-team {
+    position: absolute;
+    top: 100px;
+    left: 575px;
+    text-align: center;
+    align-items: center;
+}
+
+.our-team ul li {
+    text-align: center;
+    float: left;
+    padding: 10px 20px;
+}
+
+.our-team ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.our-team ul li .name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.blau-menu {
+    margin-top: 15%;
+    display: none;
+}
+
+.blau-menu-open {
+    margin-top: 15%;
+    display: block
+}
+
+.blau-menu ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+.blau-menu ul li a {
+    text-decoration: none;
+    color: #f3f4f5;
+}
+
+.blau-menu ul li a:hover {
+    background-color: #0000ff;
+    padding: 10px;
+}
+
+.blau-menu-open ul li {
+    text-align: center;
+    padding: 10px;
+}
+
+.blau-menu-open ul li a {
+    text-decoration: none;
+    color: #f3f4f5;
+}
+
+.blau-menu-open ul li a:hover {
+    background-color: #0000ff;
+    padding: 10px;
+}
+
+#open-menu {
+    text-decoration: none;
+    color: #f3f4f5;
+    text-align: center;
+    margin-left: 42%;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.our-team-21 {
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+
+.our-team-21 ul li p {
+    color: #f3f4f5;
+}
+
+#footer-titles-123 {
+    margin-top: 40%;
+}
+
+.blau-information {
+    text-align: center;
+}
+
+.blau-information-item-p {
+    color: #ffffff;
+}
+
+#contact-us-title-item-h2 {
+    margin-top: -5%;
+}
+
+.blau-blog {
+    margin-top: 5%;
+}
+
+.blau-blog-title {
+    text-align: center;
+}
+
+.blau-blog-title-item-h2 {
+    color: #ffffff;
+}
+
+.blau-blog-text-item-p {
+    word-wrap: break-word;
+    width: 30%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 35%;
+}
+
+#blog-page-contact-us-title {
+    text-align: center;
+    color: #0000ff;
+    margin-top: 5%;
+}
+
+.blog-image {
+    height: 300px;
+    width: 300px;
+}
+
+.designed-by-item-p {
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and ( max-width: 992px ) {
+    .menu ul:nth-child(1) {
+        position: absolute;
+        top: -60px;
+        left: 5px;
+    }
+    
+    .menu ul:nth-child(2) {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .blau-logo {
+        position: absolute;
+    }
+
+    .blau-logo-item-img {
+        margin-left: 65%;
+    }
+
+    .menu .menu-item-img {
+        margin-top: 2%;
+        margin-left: -47%;
+        height: 600px;
+        width: 400px;
+    }
+
+    .blau-information-item-p {
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .blau-footer form input[name=mail],
+    .blau-footer form input[name=insta],
+    .blau-footer form input[name=tel] {
+        width: 80%;
+    }
+
+    .blau-footer form textarea[name=message] {
+        border: 1px solid #0000ff;
+        background-color: transparent;
+        padding: 5px 5px;
+        color: #f3f4f5;
+        transition: .4s ease;
+        resize: none;
+        width: 80%;
+    }
+
+    .blau-blog {
+        margin-top: 60%;
+    }
+}
